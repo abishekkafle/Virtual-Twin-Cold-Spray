@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "CEL_P3_FINAL_VELOCITY_FAMILY_DISPOSITION",
+  "basis_frozen": true,
+  "decision": "PASS_CEL_P4_PRODUCTION_DESIGN_AUTHORIZED_WITH_RANGE_CAPS_AND_REVIEW_FLAGS",
+  "qualified_ranges": [
+    {
+      "particle_material": "Cu",
+      "substrate_material": "Cu",
+      "velocity_min_m_s": 300.0,
+      "velocity_max_m_s": 850.0,
+      "status": "NUMERICALLY_QUALIFIED"
+    },
+    {
+      "particle_material": "Al6061",
+      "substrate_material": "SS304",
+      "velocity_min_m_s": 500.0,
+      "velocity_max_m_s": 725.0,
+      "status": "NUMERICALLY_QUALIFIED_RANGE_CAPPED",
+      "excluded_velocity_m_s": 950.0,
+      "basis": "Both standard and wide-lateral CEL cases failed frozen numerical gates at 950 m/s"
+    },
+    {
+      "particle_material": "Ti6Al4V",
+      "substrate_material": "Ti6Al4V",
+      "velocity_min_m_s": 500.0,
+      "velocity_max_m_s": 1150.0,
+      "status": "NUMERICALLY_QUALIFIED_WITH_NEAR_MELT_REVIEW_AT_HIGH_END"
+    },
+    {
+      "particle_material": "Inconel718",
+      "substrate_material": "Ti6Al4V",
+      "velocity_min_m_s": 500.0,
+      "velocity_max_m_s": 1150.0,
+      "status": "NUMERICALLY_QUALIFIED_WITH_CONSTITUTIVE_REVIEW",
+      "basis": "825 and 1150 m/s near-melt review; 1150 m/s PEEQmax review and Tmax/Tm=0.999966"
+    }
+  ],
+  "excluded_pair": "SS316L->Al6061",
+  "production_rules": {
+    "numerical_gates_apply_case_by_case": true,
+    "at_or_above_melt_excluded_from_ml": true,
+    "near_melt_and_peeq_review_flags_retained": true,
+    "no_interpolation_across_failed_or_excluded_regions": true
+  },
+  "scope_limit": "This authorizes production-design freezing for the listed ranges only. It does not authorize ML training, extrapolation to unqualified material pairs, bonding claims, or physical validation."
+}

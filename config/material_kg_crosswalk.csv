@@ -1,0 +1,11 @@
+simulation_material_id,simulation_material_name,declared_condition,kg_canonical_name,mapping_type,material_scope,mapping_rule
+Al6061,Aluminum 6061-T6,6061-T6,Al-6061,EXACT_CANONICAL,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+Cu,OFHC Copper,annealed_or_unspecified_OFHC,Cu,EXACT_CANONICAL,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+SS316L,Stainless Steel 316L,condition_not_recorded,SS316L,EXACT_CANONICAL,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+Ti6Al4V,Titanium Ti-6Al-4V,condition_not_recorded,Ti-6Al-4V,EXACT_CANONICAL,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+Inconel718,Nickel-Base Inconel 718,aged_state_not_recorded,IN718,EXACT_CANONICAL,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+Nickel200,Pure Nickel 200,condition_not_recorded,Ni-pure,SAME_BASE_MATERIAL_DIFFERENT_GRADE,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+SS304,Stainless Steel 304,annealed_304_SS,SS304,EXACT_CANONICAL,PRIMARY_WITH_PROVENANCE_CAVEAT,Do not upgrade approximate or broader mappings to exact evidence
+Al7075,Aluminum 7075-T6,7075-T6,Al-7075,EXACT_CANONICAL,EXPLORATORY_ONLY,Do not upgrade approximate or broader mappings to exact evidence
+CP_Ti,Commercially Pure Ti,grade_and_condition_not_recorded,CP-Ti,GRADE_OR_CONDITION_UNSPECIFIED,EXPLORATORY_ONLY,Do not upgrade approximate or broader mappings to exact evidence
+AISI4140,Low Alloy Steel 4140 Q&T,quenched_and_tempered_state_not_recorded,carbon-steel,BROADER_MATERIAL_CLASS,EXPLORATORY_ONLY,Do not upgrade approximate or broader mappings to exact evidence

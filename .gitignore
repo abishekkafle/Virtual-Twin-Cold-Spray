@@ -1,0 +1,32 @@
+# Abaqus / solver artifacts intentionally excluded from this lightweight verification repo.
+*.odb
+*.abq
+*.mdl
+*.pac
+*.prt
+*.res
+*.sel
+*.stt
+*.sim
+*.lck
+*.dat
+*.msg
+*.sta
+*.com
+*.env
+
+# Local caches and transient outputs.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local editor/runtime files.
+.vscode/
+.idea/
+*.log
+*.tmp

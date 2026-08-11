@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "CEL_P5_SIMULATION_SURROGATE",
+  "model_name": "ExtraTrees",
+  "source_gate_decision": "PASS_CEL_P5_SIMULATION_SURROGATE_TRAINING_AUTHORIZED",
+  "training_rows": 44,
+  "features": [
+    "pair",
+    "particle_material",
+    "substrate_material",
+    "impact_velocity_m_s",
+    "velocity_fraction",
+    "qualified_velocity_min_m_s",
+    "qualified_velocity_max_m_s",
+    "Ek_norm",
+    "H_ratio",
+    "T_hom_p",
+    "T_hom_s",
+    "density_ratio",
+    "modulus_ratio",
+    "melt_ratio",
+    "conductivity_ratio",
+    "particle_density_kg_m3",
+    "particle_elastic_modulus_pa",
+    "particle_specific_heat_j_kg_k",
+    "particle_conductivity_w_m_k",
+    "particle_melt_temp_k",
+    "particle_jc_a_pa",
+    "particle_jc_b_pa",
+    "particle_jc_n",
+    "particle_jc_c",
+    "particle_jc_m",
+    "substrate_density_kg_m3",
+    "substrate_elastic_modulus_pa",
+    "substrate_specific_heat_j_kg_k",
+    "substrate_conductivity_w_m_k",
+    "substrate_melt_temp_k",
+    "substrate_jc_a_pa",
+    "substrate_jc_b_pa",
+    "substrate_jc_n",
+    "substrate_jc_c",
+    "substrate_jc_m"
+  ],
+  "targets": [
+    "terminal_particle_volume_weighted_velocity_m_s",
+    "particle_axial_flattening_percent",
+    "normalized_crater_depth",
+    "particle_peeqvavg_p95",
+    "substrate_peeq_p95",
+    "particle_temperature_max_k",
+    "substrate_temperature_max_k",
+    "maximum_temperature_over_melt",
+    "peak_contact_pressure_pa"
+  ],
+  "pair_domains": {
+    "Al6061->SS304": {
+      "particle_material": "Al6061",
+      "substrate_material": "SS304",
+      "velocity_min_m_s": 500.0,
+      "velocity_max_m_s": 725.0,
+      "case_count": 11
+    },
+    "Cu->Cu": {
+      "particle_material": "Cu",
+      "substrate_material": "Cu",
+      "velocity_min_m_s": 300.0,
+      "velocity_max_m_s": 850.0,
+      "case_count": 11
+    },
+    "Inconel718->Ti6Al4V": {
+      "particle_material": "Inconel718",
+      "substrate_material": "Ti6Al4V",
+      "velocity_min_m_s": 500.0,
+      "velocity_max_m_s": 1150.0,
+      "case_count": 11
+    },
+    "Ti6Al4V->Ti6Al4V": {
+      "particle_material": "Ti6Al4V",
+      "substrate_material": "Ti6Al4V",
+      "velocity_min_m_s": 500.0,
+      "velocity_max_m_s": 1150.0,
+      "case_count": 11
+    }
+  },
+  "primary_validation_regime": "pair_aware_velocity_interpolation",
+  "primary_validation_mean_r2": 0.9694101141023859,
+  "primary_validation_mean_nrmse": 0.03633086091149302,
+  "target_metrics": {
+    "terminal_particle_volume_weighted_velocity_m_s": {
+      "r2": 0.9969438756519211,
+      "mae": 1.9666584465859593,
+      "rmse": 3.6644715000076276,
+      "nrmse": 0.018478855698857623,
+      "actual_min": 18.043974421140515,
+      "actual_max": 216.35016608831003
+    },
+    "particle_axial_flattening_percent": {
+      "r2": 0.9939101949762229,
+      "mae": 0.723600133305715,
+      "rmse": 1.2456071102098043,
+      "nrmse": 0.02170592182875934,
+      "actual_min": 17.04523574545537,
+      "actual_max": 74.430824804356
+    },
+    "normalized_crater_depth": {
+      "r2": 0.9943316394759913,
+      "mae": 0.0067685343275056264,
+      "rmse": 0.014612905885512718,
+      "nrmse": 0.020145196443463378,
+      "actual_min": 0.0242738747147086,
+      "actual_max": 0.7496530452044681
+    },
+    "particle_peeqvavg_p95": {
+      "r2": 0.9884577896400694,
+      "mae": 0.033675528898496065,
+      "rmse": 0.05775484927428898,
+      "nrmse": 0.03427427451436737,
+      "actual_min": 0.512882649898529,
+      "actual_max": 2.1979613304138184
+    },
+    "substrate_peeq_p95": {
+      "r2": 0.9940747901642326,
+      "mae": 0.008374642975673613,
+      "rmse": 0.02039323772048732,
+      "nrmse": 0.0198102728268986,
+      "actual_min": 0.0046868380159139,
+      "actual_max": 1.0341142416000366
+    },
+    "particle_temperature_max_k": {
+      "r2": 0.982080690713062,
+      "mae": 16.705975312319698,
+      "rmse": 26.497118002236313,
+      "nrmse": 0.031416337572518986,
+      "actual_min": 433.5928039550781,
+      "actual_max": 1277.01123046875
+    },
+    "substrate_temperature_max_k": {
+      "r2": 0.9946995329473366,
+      "mae": 21.793110218916,
+      "rmse": 41.62877138757504,
+      "nrmse": 0.026316944530596922,
+      "actual_min": 346.1105651855469,
+      "actual_max": 1927.9344482421875
+    },
+    "maximum_temperature_over_melt": {
+      "r2": 0.9862908603020297,
+      "mae": 0.012803393211410018,
+      "rmse": 0.02273006290042337,
+      "nrmse": 0.03464933047560706,
+      "actual_min": 0.343963053216578,
+      "actual_max": 0.999966000125616
+    },
+    "peak_contact_pressure_pa": {
+      "r2": 0.793901653050608,
+      "mae": 1376633935.243638,
+      "rmse": 2068027184.2903767,
+      "nrmse": 0.12018061431236784,
+      "actual_min": 4025972992.0,
+      "actual_max": 21233633280.0
+    }
+  },
+  "authorized_use": "simulation-surrogate interpolation inside listed material-pair and velocity domains",
+  "limitations": [
+    "not externally experimentally validated",
+    "not validated for unseen material pairs",
+    "not a bonding/no-bonding classifier",
+    "review-flag cases remain subject to Johnson--Cook high-temperature/large-strain caution"
+  ]
+}

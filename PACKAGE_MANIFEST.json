@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-08-11T10:13:14",
+  "package_root": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314",
+  "file_count": 38,
+  "missing_sources": [],
+  "files": [
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p4_protocol.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p4_protocol.md",
+      "size_bytes": 1087,
+      "sha256": "436dcd27ea195e544e41af01a1889eb7d8c87c0509f74c5167e68245dd48b60f"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p4_datacheck_report.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p4_datacheck_report.md",
+      "size_bytes": 872,
+      "sha256": "2f3f0e529982eb93f1d1d60a28e6d31c6db204278e6a96c9bf592a617e24f421"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p4_gate_report.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p4_gate_report.md",
+      "size_bytes": 6489,
+      "sha256": "99259edc8e2ff683df394722c10ccd2fa1da9e81de2b67fcad1e561fbfea539f"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p4_parallel_solve_ledger.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p4_parallel_solve_ledger.json",
+      "size_bytes": 17533,
+      "sha256": "d0ce63aa06faf9e6f077ad429abea73b514c0cf9336fcc53fe218643b0c435b6"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p4_extract_parallel_ledger.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p4_extract_parallel_ledger.json",
+      "size_bytes": 21530,
+      "sha256": "d711864c241d59e7bff036f1d48e2e2106636cc417b92ef1015feb73d36b35ce"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p5_surrogate_training_report.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p5_surrogate_training_report.md",
+      "size_bytes": 4994,
+      "sha256": "6390553aad847bff0010a89797b4a1a0bb1a71d058425575d091ff3eadda1e2c"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p5_surrogate_metrics.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p5_surrogate_metrics.json",
+      "size_bytes": 23330,
+      "sha256": "774df762cee9931042cf6c56af7ae0621f795cd5cfc0fb30b3b2e7d3b505bf2b"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p5_webxr_runtime_verification.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p5_webxr_runtime_verification.md",
+      "size_bytes": 929,
+      "sha256": "b1cd4e747acde37b1f00d9035ddb4eb4064e477898731158faac244038c4ff60"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p5_webxr_runtime_verification.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p5_webxr_runtime_verification.json",
+      "size_bytes": 1797,
+      "sha256": "615981ce5f21e6fce7991237742c497c503e12a034ac5db7ac75cc325e9b191d"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\cel_p5_kg_webxr_integration_plan.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\cel_p5_kg_webxr_integration_plan.md",
+      "size_bytes": 4198,
+      "sha256": "e121e36f83993d221ff0521780aa4b92468c265488862c3685640f717eb2d32c"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\config\\cel_p4_acceptance_gates.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\config\\cel_p4_acceptance_gates.json",
+      "size_bytes": 1573,
+      "sha256": "bc96b1b1ccd05e6d57df428a859151af713a2192b99509ba27fe7ea54e3fb1d2"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\config\\cel_p3_final_disposition.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\config\\cel_p3_final_disposition.json",
+      "size_bytes": 1803,
+      "sha256": "0dba8613b91180a536c3e260be617dd684e4828e5cd1d9f3cce1aa85d9ecbf88"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\config\\material_registry.csv",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\config\\material_registry.csv",
+      "size_bytes": 5023,
+      "sha256": "53793c8cd04fc418c5672760350c26e2a9d2db1db3de33c054e7ebe51628d48e"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\config\\material_kg_crosswalk.csv",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\config\\material_kg_crosswalk.csv",
+      "size_bytes": 1825,
+      "sha256": "1e6e876fc014a9c0d97a489c9da201fa7b013a3190d50b73301e4f250a0374b5"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\manifests\\cel_p4_production_cases.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\manifests\\cel_p4_production_cases.json",
+      "size_bytes": 82354,
+      "sha256": "1513b05f644b932b7f2a64b58d6cfd1236ca5af7325ff808ccfc4b5a58fda180"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\extracted\\production\\CEL_P4\\cel_p4_results.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\extracted\\production\\CEL_P4\\cel_p4_results.json",
+      "size_bytes": 186696,
+      "sha256": "93ed501902c5b173e5cac411cc00a64acb85dadb96390e2af530cabc1c8862c6"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\database\\cel_p4_simulation_surrogate_dataset.csv",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\database\\cel_p4_simulation_surrogate_dataset.csv",
+      "size_bytes": 32872,
+      "sha256": "622e1ebc8b4c04457abb22f4859777bc4e9c05a503439208e68b8c8c7edc4152"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\database\\cel_p5_surrogate_predictions.csv",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\database\\cel_p5_surrogate_predictions.csv",
+      "size_bytes": 227401,
+      "sha256": "846e78cf46abcc987d9e80559094f5ef7b97c875beb6e85d1e645bec87e675e7"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\database\\cel_p5_final_model_predictions.csv",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\database\\cel_p5_final_model_predictions.csv",
+      "size_bytes": 28298,
+      "sha256": "d5f8bf4c7cd205b076f47d28b21cdb885ad3c89b5607a540347502fb9a1c6996"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\models\\cel_p5_surrogate_model_card.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\models\\cel_p5_surrogate_model_card.json",
+      "size_bytes": 5304,
+      "sha256": "a7cab1377673d52555d9a3bb8f3e6ab72cc175426afa0e647c9af3029258bfb6"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\models\\cel_p5_extra_trees_surrogate.joblib",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\models\\cel_p5_extra_trees_surrogate.joblib",
+      "size_bytes": 9800512,
+      "sha256": "03f8712d74191a85543d4454d110307bbfa48e571cf07e0fd0bd24e9dc9df564"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\webxr\\cel_p5_surrogate_tree_ensemble.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\webxr\\cel_p5_surrogate_tree_ensemble.json",
+      "size_bytes": 27942678,
+      "sha256": "4dcad67203805b1c0decdf21335381e7ecb4b44b35e282375f4bb735bd708304"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\webxr\\cel_p5_tree_runtime.mjs",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\webxr\\cel_p5_tree_runtime.mjs",
+      "size_bytes": 9327,
+      "sha256": "4ddc385b34651d62b8937bfdd5c0cfe99a27c06fce4e1f3cec3d51b01613a871"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\webxr\\cel_p5_kg_webxr_manifest.json",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\webxr\\cel_p5_kg_webxr_manifest.json",
+      "size_bytes": 10133,
+      "sha256": "f2d47edc25db96f03b12be7b0d1f3745a18b50125564dfe4f6083b076665e68a"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\scripts\\train_cel_p5_surrogate.py",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\scripts\\train_cel_p5_surrogate.py",
+      "size_bytes": 43457,
+      "sha256": "c68ccb64709bd5499a6b3a9410210c7f1f736f14d65ffd77a126c9160eb3da39"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\scripts\\verify_cel_p5_webxr_runtime.mjs",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\scripts\\verify_cel_p5_webxr_runtime.mjs",
+      "size_bytes": 5413,
+      "sha256": "5e821c1624475c005894b98d09a319a4cdc4aa2b49cf2d0709d513b8309ccc73"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\scripts\\build_cel_p5_kg_webxr_manifest.py",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\scripts\\build_cel_p5_kg_webxr_manifest.py",
+      "size_bytes": 13903,
+      "sha256": "594a01a334adc6ac68bc3ebe4f904e485e624359ba554cab3aa26ae91c3f9901"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\scripts\\build_chatgpt_upload_package.py",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\scripts\\build_chatgpt_upload_package.py",
+      "size_bytes": 8580,
+      "sha256": "2e3fb21806de2a222f6ecd7ec148f846508cc5112463808614f78a185031e595"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_kg - Copy\\ENGINE_OVERVIEW.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\kg\\ENGINE_OVERVIEW.md",
+      "size_bytes": 14143,
+      "sha256": "0e93708dfe574976021d0b80b938cfc0ac429a921e0ed67d867756b49a1326c2"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_kg - Copy\\extraction_protocol_findings.md",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\kg\\extraction_protocol_findings.md",
+      "size_bytes": 24588,
+      "sha256": "c2dde669d9596f3b02d83ead48f0bff65ee139477f88d3ed425afdd2dbf940e3"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\kg_driven_cold_spray\\cold_spray_cel_p5_model.js",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\webxr_app\\cold_spray_cel_p5_model.js",
+      "size_bytes": 3031,
+      "sha256": "f05445251d91fa36abccc52dee288aec6220239a6c65b8d989256d5c99a05399"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\kg_driven_cold_spray\\js\\cel_p5_model_adapter.js",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\webxr_app\\js\\cel_p5_model_adapter.js",
+      "size_bytes": 8315,
+      "sha256": "8dcd758dcf7f06414a5fd5d84e78d6c05072e5eed74387ec5a510834a8ec7015"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\kg_driven_cold_spray\\js\\cel_p5_tree_runtime.mjs",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\webxr_app\\js\\cel_p5_tree_runtime.mjs",
+      "size_bytes": 9327,
+      "sha256": "4ddc385b34651d62b8937bfdd5c0cfe99a27c06fce4e1f3cec3d51b01613a871"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\figures\\cel_p5_interpolation_parity.png",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\figures\\cel_p5_interpolation_parity.png",
+      "size_bytes": 595920,
+      "sha256": "de131398578386c5bdb11002c89961320ad17d6a7cd3152a248397c0b551d274"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\figures\\cel_p5_lopo_boundary_parity.png",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\figures\\cel_p5_lopo_boundary_parity.png",
+      "size_bytes": 630900,
+      "sha256": "8fbd2d16f897dad1aa81b77c4723204a387f85aaa1b12729b46377e1abcd9860"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\figures\\cel_p5_model_comparison.png",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\figures\\cel_p5_model_comparison.png",
+      "size_bytes": 112535,
+      "sha256": "d008f9c7f0bb1d28720274a6d4a2c77ecc749f76d1039023a6d3ea46c3a7c501"
+    },
+    {
+      "source": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\reports\\figures\\cel_p5_velocity_response_curves.png",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\reports\\figures\\cel_p5_velocity_response_curves.png",
+      "size_bytes": 400937,
+      "sha256": "1c41c8644c3126397605f11ce92908674214e45a055fc44fcf6888b658775ab4"
+    },
+    {
+      "source": "generated",
+      "package_path": "D:\\Cold Spray\\Virtual Twin\\ABAQUS Simulation\\cold_spray_virtual_twin\\metal_metal_agentic_twin\\chatgpt_upload_cel_p5_virtual_twin_20260811_101314\\README.md",
+      "size_bytes": 1420,
+      "sha256": "cef3984238b843c75923b769bc027b5db875e3901ae38134040f0ce622cc875a"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "CEL-P5 Metal-on-Metal Cold-Spray Simulation-Surrogate Virtual Twin Dataset"
+message: "If you use this dataset or code, please cite the associated manuscript or this repository."
+type: dataset
+authors:
+  - name: "Kafle, Akash"
+date-released: 2026-08-11
+keywords:
+  - cold spray additive manufacturing
+  - Abaqus Explicit
+  - coupled Eulerian-Lagrangian
+  - simulation surrogate
+  - WebXR
+  - knowledge graph
+license: "NOASSERTION"
+abstract: "A gated 44-case metal-on-metal Abaqus/Explicit CEL simulation-surrogate dataset with trained ExtraTrees model, WebXR runtime, knowledge-graph integration notes, and verification reports. The dataset supports qualified-pair simulation-surrogate interpolation only and does not claim experimental validation or universal cross-material prediction."

@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-08-11T10:09:11",
+  "system_title": "Metal-on-metal cold-spray agentic virtual twin, KG + CEL + ML + WebXR",
+  "kg_layer": {
+    "root": "cold_spray_kg - Copy",
+    "engine_overview": "cold_spray_kg - Copy/ENGINE_OVERVIEW.md",
+    "extraction_protocol_findings": "cold_spray_kg - Copy/extraction_protocol_findings.md",
+    "counts": {
+      "literature_entities_merged": 2070,
+      "literature_triples_audited_file": 6440,
+      "literature_triples_nli_scored": 3631,
+      "operator_entities": 1401,
+      "operator_triples": 1544,
+      "bridge_triples": 117
+    },
+    "role_in_twin": "evidence/provenance layer for material identity, literature context, operator knowledge, and in-headset citations"
+  },
+  "legacy_webxr_layer": {
+    "root": "kg_driven_cold_spray",
+    "bundle": "kg_driven_cold_spray/data/webxr_twin_data.json",
+    "version": "3.1.0",
+    "scope_status": "DEMONSTRATION_ONLY_PHYSICS_UNQUALIFIED",
+    "training_cases": 116,
+    "supported_pairs_count": 0,
+    "demonstration_pairs_count": 7,
+    "role_after_cel_p5": "retain scene, KG panels, and HMI patterns; supersede demonstration-only surrogate with the CEL-P5 qualified-pair bundle"
+  },
+  "cel_p4_layer": {
+    "decision": "PASS_CEL_P5_SIMULATION_SURROGATE_TRAINING_AUTHORIZED",
+    "case_count": 44,
+    "numerically_passing_case_count": 44,
+    "ml_candidate_count": 44,
+    "constitutive_review_case_count": 7,
+    "dataset": "database/cel_p4_simulation_surrogate_dataset.csv",
+    "gate_report": "reports/cel_p4_gate_report.md"
+  },
+  "cel_p5_surrogate_layer": {
+    "selected_model": "ExtraTrees",
+    "interpolation_mean_r2": 0.9694101141023859,
+    "interpolation_mean_nrmse": 0.03633086091149302,
+    "leave_one_pair_out_mean_r2": 0.03814985249716041,
+    "leave_one_pair_out_mean_nrmse": 0.27724405947041064,
+    "model_card": "models/cel_p5_surrogate_model_card.json",
+    "metrics": "reports/cel_p5_surrogate_metrics.json",
+    "webxr_bundle": "webxr/cel_p5_surrogate_tree_ensemble.json",
+    "webxr_runtime": "webxr/cel_p5_tree_runtime.mjs",
+    "runtime_verification": "reports/cel_p5_webxr_runtime_verification.json",
+    "runtime_verification_decision": "PASS_WEBXR_RUNTIME_EQUIVALENCE",
+    "supported_pair_domains": {
+      "Al6061->SS304": {
+        "particle_material": "Al6061",
+        "substrate_material": "SS304",
+        "velocity_min_m_s": 500.0,
+        "velocity_max_m_s": 725.0,
+        "training_velocity_levels_m_s": [
+          500.0,
+          522.5,
+          545.0,
+          567.5,
+          590.0,
+          612.5,
+          635.0,
+          657.5,
+          680.0,
+          702.5,
+          725.0
+        ],
+        "constitutive_review_case_count": 0,
+        "constitutive_review_cases": []
+      },
+      "Cu->Cu": {
+        "particle_material": "Cu",
+        "substrate_material": "Cu",
+        "velocity_min_m_s": 300.0,
+        "velocity_max_m_s": 850.0,
+        "training_velocity_levels_m_s": [
+          300.0,
+          355.0,
+          410.0,
+          465.0,
+          520.0,
+          575.0,
+          630.0,
+          685.0,
+          740.0,
+          795.0,
+          850.0
+        ],
+        "constitutive_review_case_count": 0,
+        "constitutive_review_cases": []
+      },
+      "Inconel718->Ti6Al4V": {
+        "particle_material": "Inconel718",
+        "substrate_material": "Ti6Al4V",
+        "velocity_min_m_s": 500.0,
+        "velocity_max_m_s": 1150.0,
+        "training_velocity_levels_m_s": [
+          500.0,
+          565.0,
+          630.0,
+          695.0,
+          760.0,
+          825.0,
+          890.0,
+          955.0,
+          1020.0,
+          1085.0,
+          1150.0
+        ],
+        "constitutive_review_case_count": 6,
+        "constitutive_review_cases": [
+          {
+            "case": "MMCELP4_INCONEL718_TI6AL4V_V05",
+            "velocity_m_s": 825.0,
+            "flags": "NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.9565745626742416,
+            "maximum_peeq": 3.292078733444214
+          },
+          {
+            "case": "MMCELP4_INCONEL718_TI6AL4V_V06",
+            "velocity_m_s": 890.0,
+            "flags": "NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.9780607104796096,
+            "maximum_peeq": 3.743612051010132
+          },
+          {
+            "case": "MMCELP4_INCONEL718_TI6AL4V_V07",
+            "velocity_m_s": 955.0,
+            "flags": "NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.9941254928398924,
+            "maximum_peeq": 4.517406940460205
+          },
+          {
+            "case": "MMCELP4_INCONEL718_TI6AL4V_V08",
+            "velocity_m_s": 1020.0,
+            "flags": "NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.996362203384336,
+            "maximum_peeq": 4.773203372955322
+          },
+          {
+            "case": "MMCELP4_INCONEL718_TI6AL4V_V09",
+            "velocity_m_s": 1085.0,
+            "flags": "NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.9973411718344788,
+            "maximum_peeq": 4.934659957885742
+          },
+          {
+            "case": "MMCELP4_INCONEL718_TI6AL4V_V10",
+            "velocity_m_s": 1150.0,
+            "flags": "PEEQ_MAX_REVIEW;NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.999966000125616,
+            "maximum_peeq": 6.895310401916504
+          }
+        ]
+      },
+      "Ti6Al4V->Ti6Al4V": {
+        "particle_material": "Ti6Al4V",
+        "substrate_material": "Ti6Al4V",
+        "velocity_min_m_s": 500.0,
+        "velocity_max_m_s": 1150.0,
+        "training_velocity_levels_m_s": [
+          500.0,
+          565.0,
+          630.0,
+          695.0,
+          760.0,
+          825.0,
+          890.0,
+          955.0,
+          1020.0,
+          1085.0,
+          1150.0
+        ],
+        "constitutive_review_case_count": 1,
+        "constitutive_review_cases": [
+          {
+            "case": "MMCELP4_TI6AL4V_TI6AL4V_V10",
+            "velocity_m_s": 1150.0,
+            "flags": "NEAR_MELT_REVIEW",
+            "maximum_temperature_over_melt": 0.9561017301567364,
+            "maximum_peeq": 3.271457433700561
+          }
+        ]
+      }
+    }
+  },
+  "material_kg_crosswalk": [
+    {
+      "simulation_material_id": "Al6061",
+      "simulation_material_name": "Aluminum 6061-T6",
+      "declared_condition": "6061-T6",
+      "kg_canonical_name": "Al-6061",
+      "mapping_type": "EXACT_CANONICAL",
+      "material_scope": "PRIMARY_WITH_PROVENANCE_CAVEAT",
+      "mapping_rule": "Do not upgrade approximate or broader mappings to exact evidence"
+    },
+    {
+      "simulation_material_id": "Cu",
+      "simulation_material_name": "OFHC Copper",
+      "declared_condition": "annealed_or_unspecified_OFHC",
+      "kg_canonical_name": "Cu",
+      "mapping_type": "EXACT_CANONICAL",
+      "material_scope": "PRIMARY_WITH_PROVENANCE_CAVEAT",
+      "mapping_rule": "Do not upgrade approximate or broader mappings to exact evidence"
+    },
+    {
+      "simulation_material_id": "Ti6Al4V",
+      "simulation_material_name": "Titanium Ti-6Al-4V",
+      "declared_condition": "condition_not_recorded",
+      "kg_canonical_name": "Ti-6Al-4V",
+      "mapping_type": "EXACT_CANONICAL",
+      "material_scope": "PRIMARY_WITH_PROVENANCE_CAVEAT",
+      "mapping_rule": "Do not upgrade approximate or broader mappings to exact evidence"
+    },
+    {
+      "simulation_material_id": "Inconel718",
+      "simulation_material_name": "Nickel-Base Inconel 718",
+      "declared_condition": "aged_state_not_recorded",
+      "kg_canonical_name": "IN718",
+      "mapping_type": "EXACT_CANONICAL",
+      "material_scope": "PRIMARY_WITH_PROVENANCE_CAVEAT",
+      "mapping_rule": "Do not upgrade approximate or broader mappings to exact evidence"
+    },
+    {
+      "simulation_material_id": "SS304",
+      "simulation_material_name": "Stainless Steel 304",
+      "declared_condition": "annealed_304_SS",
+      "kg_canonical_name": "SS304",
+      "mapping_type": "EXACT_CANONICAL",
+      "material_scope": "PRIMARY_WITH_PROVENANCE_CAVEAT",
+      "mapping_rule": "Do not upgrade approximate or broader mappings to exact evidence"
+    }
+  ],
+  "hmi_tiers": [
+    {
+      "tier": 1,
+      "name": "KG evidence tier",
+      "content": "material identity, literature provenance, NLI/evidence support, operator knowledge, DOI/manual-source citations"
+    },
+    {
+      "tier": 2,
+      "name": "CEL simulation-surrogate tier",
+      "content": "qualified material-pair selector, velocity slider, predicted deformation/temperature/PEEQ/contact outputs, numerical-gate provenance"
+    },
+    {
+      "tier": 3,
+      "name": "OEM/operator HMI tier",
+      "content": "WarpSPEE3D cell context, safe operating envelope, SOP/fault/hazard panels, and explicit non-autonomous decision support"
+    }
+  ],
+  "claim_boundary": {
+    "authorized": [
+      "qualified-pair interpolation of Abaqus/Explicit CEL response quantities",
+      "browser-executable surrogate inference with exact Python-runtime replay",
+      "KG-backed provenance and operator-context visualization"
+    ],
+    "not_authorized": [
+      "experimental physical validation claims",
+      "bond/no-bond threshold claims",
+      "unseen material-pair prediction",
+      "autonomous process control"
+    ]
+  },
+  "recommended_next_actions": [
+    "copy cel_p5_surrogate_tree_ensemble.json into kg_driven_cold_spray/data/",
+    "copy cel_p5_tree_runtime.mjs into kg_driven_cold_spray/js/",
+    "add a small adapter that maps the existing WebXR controls to particle_material, substrate_material, and impact_velocity_m_s",
+    "display the runtime applicability status before displaying predictions",
+    "surface KG citation panels through the existing kg_client/materials_kg path",
+    "capture WebXR screenshots after adapter integration for the manuscript figure set"
+  ]
+}

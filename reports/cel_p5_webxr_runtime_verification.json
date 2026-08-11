@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "decision": "PASS_WEBXR_RUNTIME_EQUIVALENCE",
+  "bundle": "webxr\\cel_p5_surrogate_tree_ensemble.json",
+  "runtime": "webxr/cel_p5_tree_runtime.mjs",
+  "python_reference": "database\\cel_p5_final_model_predictions.csv",
+  "rows_replayed": 44,
+  "targets_replayed": 9,
+  "compared_values": 396,
+  "global_max_abs_error": 0,
+  "global_max_relative_error": 0,
+  "per_target": {
+    "terminal_particle_volume_weighted_velocity_m_s": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "particle_axial_flattening_percent": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "normalized_crater_depth": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "particle_peeqvavg_p95": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "substrate_peeq_p95": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "particle_temperature_max_k": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "substrate_temperature_max_k": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "maximum_temperature_over_melt": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    },
+    "peak_contact_pressure_pa": {
+      "max_abs_error": 0,
+      "max_relative_error": 0,
+      "mean_abs_error": 0
+    }
+  },
+  "domain_gate_checks": {
+    "unsupported_pair_status": "UNSUPPORTED_PAIR",
+    "unsupported_pair_prediction_is_null": true,
+    "out_of_range_status": "OUTSIDE_QUALIFIED_VELOCITY_RANGE",
+    "out_of_range_prediction_is_null": true
+  }
+}

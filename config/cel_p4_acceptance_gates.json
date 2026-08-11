@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "stage": "CEL_P4_QUALIFIED_PRODUCTION_DOE",
+  "frozen_before_solve": true,
+  "required_case_count": 44,
+  "required_pair_count": 4,
+  "required_velocity_levels_per_pair": 11,
+  "required_new_solve_count": 33,
+  "required_reused_anchor_count": 11,
+  "geometry_gates": {
+    "particle_volume_relative_error_abs_max": 0.01,
+    "initial_contact_overclosures_max": 0,
+    "elements_over_aspect_ratio_100_max": 0
+  },
+  "case_gates": {
+    "solver_completed": true,
+    "contact_detected": true,
+    "final_allae_over_allie_max": 0.05,
+    "etotal_drift_over_initial_ke_max": 0.02,
+    "final_particle_volume_relative_change_abs_max": 0.01,
+    "endpoint_over_first_boundary_return_max": 0.8,
+    "mass_scaling": "none"
+  },
+  "ml_candidate_gates": {
+    "maximum_temperature_over_melt_exclusive_max": 1.0,
+    "minimum_candidates_per_pair": 9,
+    "minimum_total_candidates": 36
+  },
+  "review_flags": {
+    "particle_or_substrate_peeq_max": 5.0,
+    "particle_or_substrate_temperature_max_over_melt": 0.95
+  },
+  "required_eulerian_fields": [
+    "EVF_ASSEMBLY_EULERIAN-1_PARTICLE_EUL",
+    "PEEQVAVG"
+  ],
+  "pass_decision": "PASS_CEL_P5_SIMULATION_SURROGATE_TRAINING_AUTHORIZED",
+  "fail_decision": "FAIL_CEL_P4_CASE_SPECIFIC_REMEDIATION_OR_RANGE_REDUCTION_REQUIRED",
+  "authorization_note": "A pass authorizes only simulation-surrogate training with grouped material-pair validation and explicit constitutive flags. It does not authorize physical bonding, experimental validation, unqualified pairs, agent autonomy, or WebXR deployment."
+}
