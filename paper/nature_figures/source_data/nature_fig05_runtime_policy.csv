@@ -1,0 +1,7 @@
+input_condition,runtime_decision
+"Qualified pair
+in range",Display
+Unsupported pair,Block
+Out of range,Block
+"Physical bond
+or control",Block

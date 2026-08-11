@@ -1,0 +1,2 @@
+sample_case,pair,impact_velocity_m_s,terminal_velocity_predicted_m_s,flattening_predicted_percent,crater_depth_over_dp_predicted,maximum_temperature_over_melt_predicted,material_mapping,kg_canonical_name
+MMCELP4_CU_CU_V05,Cu->Cu,575.0,35.87791412256381,41.4341913048733,0.4523328607319828,0.5750640599073578,EXACT_CANONICAL,Cu
