@@ -1,0 +1,5 @@
+Model,Interpolation mean R²,Interpolation mean NRMSE,LOPO mean R²,LOPO mean NRMSE
+RidgeCV,0.9579,0.0522,-17.0432,1.1298
+RandomForest,0.9439,0.0621,0.0073,0.2859
+ExtraTrees,0.9694,0.0363,0.0381,0.2772
+GradientBoosting,0.9349,0.0651,0.0893,0.2725

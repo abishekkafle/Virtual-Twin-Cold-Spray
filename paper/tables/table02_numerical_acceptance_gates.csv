@@ -1,0 +1,10 @@
+Gate,Threshold,Observed worst / value,Status,Role
+CEL-P4 case count,44 required,44 cases,PASS,complete DOE
+Numerically passing cases,44 required,44/44,PASS,simulation qualification
+ML candidates,≥36 total and ≥9 per pair,44 total; 11 per pair,PASS,surrogate training authorization
+ALLAE/ALLIE,≤0.05,0.049474,PASS,hourglass/artificial energy control
+|ΔETOTAL|/KE₀,≤0.02,0.015299,PASS,global energy audit
+Particle volume change,≤0.01,0.002520,PASS,Eulerian material conservation
+Endpoint boundary return,≤0.8,0.673428,PASS,duration/domain adequacy
+Maximum T/Tm,<1.0 for ML candidacy,0.999966,PASS + review flags,thermal softening applicability
+Maximum PEEQ review,>5 triggers review,6.895310,"REVIEW, not exclusion",large-strain constitutive caution
